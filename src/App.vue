@@ -1,17 +1,16 @@
 <template>
   <div id="app">
     <navigation></navigation>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from "@/components/HelloWorld";
 import navigation from "@/components/navigation";
 export default {
   name: 'App',
   components:{
     navigation,
-    HelloWorld
   }
 
 }

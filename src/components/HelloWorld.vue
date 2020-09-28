@@ -1,6 +1,6 @@
 <template>
-  <div class="hello">
-        Hello Alvin Otieno
+  <div class="hello" >
+    <img src="../assets/carrousel1.jpg" style="max-width: 100%">
   </div>
 </template>
 
