@@ -1,6 +1,6 @@
 <template>
 <div>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top" >
     <a class="navbar-brand" href="#">
       <img src="../assets/logo.png" width="30" height="30">
     </a>
@@ -11,17 +11,27 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <router-link class="nav-link" to="/" style="color: white;font-weight: bold">Home</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/about">About</router-link>
+          <router-link class="nav-link" to="/services" style="color: white;font-weight: bold">Services</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/services">Services</router-link>
+          <router-link class="nav-link" to="/about" style="color: white;font-weight: bold">Work</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
+          <router-link class="nav-link" to="/about" style="color: white;font-weight: bold">Resume</router-link>
+
+        <li class="nav-item">
+          <router-link class="nav-link" to="/about" style="color: white;font-weight: bold">Process</router-link>
         </li>
+        <li class="nav-item">
+          <router-link class="nav-link" to="/about" style="color: white;font-weight: bold">About</router-link>
+        </li>
+        <li class="nav-item">
+          <router-link class="nav-link" to="/about" style="color: white;font-weight: bold">Portfolio</router-link>
+        </li>
+
 
 
       </ul>
@@ -42,6 +52,27 @@ name: "navigation"
 .nav-link{
   font-weight: bold;
   font-size: 20px;
+}
+.navbar-custom {
+  background-color: #001a33;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: rgba(255,255,255,.8);
+}
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+  color: rgba(255,255,255,.5);
+}
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #ffffff;
+}
+.navbar-nav > li{
+  padding-right:20px;
 }
 
 </style>

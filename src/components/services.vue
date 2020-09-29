@@ -1,37 +1,55 @@
 <template>
+  <div style="background-color: ghostwhite" >
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Services Offered</h1>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      </div>
+    </div>
   <div class="row col-lg-12 col-md-12" style="margin: 10px">
     <div class="card" style="width: 18rem;margin: 10px">
       <div class="card-body">
+        <i class="fas fa-mobile-alt fa-3x" style=""></i>
+        <div style="margin-top: 30px"></div>
         <h5 class="card-title">App development</h5>
         <p class="text-muted">Android Native , Flutter , Vue Native and IOS</p>
       </div>
     </div>
     <div class="card" style="width: 18rem;margin: 10px">
       <div class="card-body">
+        <i class="fas fa-server  fa-3x"></i>
+        <div style="margin-top: 30px"></div>
         <h5 class="card-title">Backend development</h5>
         <p class="text-muted">Laravel ,Node.js , PHP</p>
       </div>
     </div>
     <div class="card" style="width: 18rem;margin: 10px">
       <div class="card-body">
+        <i class="fas fa-cloud fa-3x"></i>
+        <div style="margin-top: 30px"></div>
         <h5 class="card-title">Cloud</h5>
         <p class="text-muted">AWS , Google Cloud , Firebase</p>
       </div>
     </div>
     <div class="card" style="width: 18rem;margin: 10px">
       <div class="card-body">
+        <i class="fas fa-laptop-code fa-3x"></i>
+        <div style="margin-top: 30px"></div>
         <h5 class="card-title">Frontend Development</h5>
         <p class="text-muted">Vue.js , ES6 , Bootstrap , Javascript</p>
       </div>
     </div>
     <div class="card" style="width: 18rem;margin: 10px">
       <div class="card-body">
+        <i class="fas fa-desktop fa-3x"></i>
+        <div style="margin-top: 30px"></div>
         <h5 class="card-title">Desktop Application</h5>
         <p class="text-muted">Linux , Windows , MacOS</p>
       </div>
     </div>
 
 
+  </div>
   </div>
 
 </template>
