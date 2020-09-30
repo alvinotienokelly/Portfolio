@@ -6,13 +6,15 @@ import VueScrollTo from 'vue-scrollto'
 import '@fortawesome/fontawesome-free/css/all.css'
 import '@fortawesome/fontawesome-free/js/all.js'
 import VueParticles from 'vue-particles'
-import router from "@/router";
+import Animation from  'animate.css'
+import router from "@/router"
 // ES6
-import VueTyperPlugin from 'vue-typer'
+import VueTypedJs from 'vue-typed-js'
 Vue.config.productionTip = false
 Vue.use(VueScrollTo)
 Vue.use(VueParticles)
-Vue.use(VueTyperPlugin)
+Vue.use(VueTypedJs)
+Vue.use(Animation)
 
 
 new Vue({

@@ -2,7 +2,7 @@
 <div>
   <nav class="navbar navbar-expand-lg navbar-custom fixed-top" >
     <a class="navbar-brand" href="#">
-      <img src="../assets/logo.png" width="30" height="30">
+
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -31,6 +31,10 @@
         <li class="nav-item">
           <router-link class="nav-link" to="/about" style="color: white;font-weight: bold">Portfolio</router-link>
         </li>
+        <li class="nav-item" style="margin-top: 5px">
+          <router-link class="btn btn-primary btn-md my-2 my-sm-0" to="/about" style="color: white;font-weight: bold">Contacts</router-link>
+        </li>
+
 
 
 
