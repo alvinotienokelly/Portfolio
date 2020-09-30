@@ -26,6 +26,14 @@
     </div>
     <div class="card animate__animated animate__fadeInUp" style="width: 18rem;margin: 10px">
       <div class="card-body">
+        <i class="fas fa-code-branch fa-3x"></i>
+        <div style="margin-top: 30px"></div>
+        <h5 class="card-title">Payment Integration</h5>
+        <p class="text-muted">Mpesa, Card , Bank Account , Paypal</p>
+      </div>
+    </div>
+    <div class="card animate__animated animate__bounceInRight" style="width: 18rem;margin: 10px">
+      <div class="card-body">
         <i class="fas fa-cloud fa-3x"></i>
         <div style="margin-top: 30px"></div>
         <h5 class="card-title">Cloud</h5>
