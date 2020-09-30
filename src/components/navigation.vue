@@ -17,7 +17,7 @@
           <router-link class="nav-link" to="/services" style="color: white;font-weight: bold">Services</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link" to="/about" style="color: white;font-weight: bold">Work</router-link>
+          <router-link class="nav-link" to="/work" style="color: white;font-weight: bold">Work</router-link>
         </li>
         <li class="nav-item">
           <router-link class="nav-link" to="/about" style="color: white;font-weight: bold">Resume</router-link>
