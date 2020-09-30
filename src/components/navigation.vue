@@ -23,7 +23,7 @@
           <router-link class="nav-link" to="/about" style="color: white;font-weight: bold">Resume</router-link>
 
         <li class="nav-item">
-          <router-link class="nav-link" to="/about" style="color: white;font-weight: bold">Process</router-link>
+          <router-link class="nav-link" to="/process" style="color: white;font-weight: bold">Process</router-link>
         </li>
         <li class="nav-item">
           <router-link class="nav-link" to="/about" style="color: white;font-weight: bold">About</router-link>

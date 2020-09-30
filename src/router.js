@@ -4,6 +4,7 @@ import HelloWorld from "@/components/HelloWorld";
 import services from "@/components/services";
 import about from "@/components/about"
 import Work from "@/components/Work";
+import Process from "@/components/Process";
 Vue.use(VueRouter)
 
 export  default  new VueRouter({
@@ -21,6 +22,10 @@ export  default  new VueRouter({
      {
          path: '/about',
          component: about
+     },
+     {
+         path: '/process',
+         component: Process
      },
      {
          path: '/work',
