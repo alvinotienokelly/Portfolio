@@ -28,11 +28,10 @@
         <li class="nav-item">
           <router-link class="nav-link" to="/about" style="color: white;font-weight: bold">About</router-link>
         </li>
-        <li class="nav-item">
-          <router-link class="nav-link" to="/about" style="color: white;font-weight: bold">Portfolio</router-link>
-        </li>
+
         <li class="nav-item" style="margin-top: 5px">
-          <router-link class="btn btn-primary btn-md my-2 my-sm-0" to="/about" style="color: white;font-weight: bold">Contacts</router-link>
+          <router-link class="btn btn-primary btn-md my-2 my-sm-0" to="/contacts"
+                       style="color: white;font-weight: bold">Contacts</router-link>
         </li>
 
 

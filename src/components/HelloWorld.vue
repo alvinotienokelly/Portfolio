@@ -3,7 +3,7 @@
     <div style="z-index: 2">
       <vue-particles
                      color="#ffffff"
-                     :particleOpacity="0.1"
+                     :particleOpacity="0.3"
                      :particlesNumber="80"
                      shapeType="circle"
                      :particleSize="4"

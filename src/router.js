@@ -5,6 +5,7 @@ import services from "@/components/services";
 import about from "@/components/about"
 import Work from "@/components/Work";
 import Process from "@/components/Process";
+import Contacts from "@/components/Contacts";
 Vue.use(VueRouter)
 
 export  default  new VueRouter({
@@ -30,6 +31,11 @@ export  default  new VueRouter({
      {
          path: '/work',
          component: Work
+     }
+     ,
+     {
+         path: '/contacts',
+         component: Contacts
      }
  ]
 })
